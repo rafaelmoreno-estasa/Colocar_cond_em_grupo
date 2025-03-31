@@ -1,0 +1,48 @@
+03/02/2025 16:02:07 |  18132 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): api.superlogica.net:443
+03/02/2025 16:02:08 |  18132 | DEBUG    | _make_request                  | https://api.superlogica.net:443 "GET /v2/condor/condominios/get?id=-1&somenteCondominiosAtivos=1&ignorarCondominioModelo=1&apenasColunasPrincipais=1&apenasDadosDoPlanoDeContas=0&comDataFechamento=1&itensPorPagina=50&pagina=1 HTTP/11" 200 None
+03/02/2025 16:02:08 |  18132 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): api.superlogica.net:443
+03/02/2025 16:02:10 |  18132 | DEBUG    | _make_request                  | https://api.superlogica.net:443 "GET /v2/condor/condominios/get?id=-1&somenteCondominiosAtivos=1&ignorarCondominioModelo=1&apenasColunasPrincipais=1&apenasDadosDoPlanoDeContas=0&comDataFechamento=1&itensPorPagina=50&pagina=2 HTTP/11" 200 None
+03/02/2025 16:02:10 |  18132 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): api.superlogica.net:443
+03/02/2025 16:02:11 |  18132 | DEBUG    | _make_request                  | https://api.superlogica.net:443 "GET /v2/condor/condominios/get?id=-1&somenteCondominiosAtivos=1&ignorarCondominioModelo=1&apenasColunasPrincipais=1&apenasDadosDoPlanoDeContas=0&comDataFechamento=1&itensPorPagina=50&pagina=3 HTTP/11" 200 None
+03/02/2025 16:02:11 |  18132 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): api.superlogica.net:443
+03/02/2025 16:02:11 |  18132 | DEBUG    | _make_request                  | https://api.superlogica.net:443 "GET /v2/condor/condominios/get?id=-1&somenteCondominiosAtivos=1&ignorarCondominioModelo=1&apenasColunasPrincipais=1&apenasDadosDoPlanoDeContas=0&comDataFechamento=1&itensPorPagina=50&pagina=4 HTTP/11" 200 None
+03/02/2025 16:02:11 |  18132 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): api.superlogica.net:443
+03/02/2025 16:02:12 |  18132 | DEBUG    | _make_request                  | https://api.superlogica.net:443 "GET /v2/condor/condominios/get?id=-1&somenteCondominiosAtivos=1&ignorarCondominioModelo=1&apenasColunasPrincipais=1&apenasDadosDoPlanoDeContas=0&comDataFechamento=1&itensPorPagina=50&pagina=5 HTTP/11" 200 None
+03/02/2025 16:02:12 |  18132 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): api.superlogica.net:443
+03/02/2025 16:02:12 |  18132 | DEBUG    | _make_request                  | https://api.superlogica.net:443 "GET /v2/condor/condominios/get?id=-1&somenteCondominiosAtivos=1&ignorarCondominioModelo=1&apenasColunasPrincipais=1&apenasDadosDoPlanoDeContas=0&comDataFechamento=1&itensPorPagina=50&pagina=6 HTTP/11" 200 None
+03/02/2025 16:02:15 |  18132 | INFO     | atualizar_mascara_padrao       | ------------------------------------
+03/02/2025 16:02:16 |  18132 | INFO     | atualizar_mascara_padrao       | Atualizar máscara do condomínio
+03/02/2025 16:02:16 |  18132 | INFO     | atualizar_mascara_padrao       | Rodando na versão: 2025.1.1
+03/02/2025 16:02:16 |  18132 | INFO     | atualizar_mascara_padrao       | Usando a biblioteca superlogica_chamadas_api na versão: 1.1
+03/02/2025 16:02:17 |  18132 | INFO     | atualizar_mascara_padrao       | ------------------------------------
+03/02/2025 16:02:21 |  18132 | INFO     | atualizar_mascara_padrao       | Procurando arquivo configuracoes.xlsx em .\docs\.
+03/02/2025 16:03:10 |  18132 | INFO     | atualizar_mascara_padrao       | Processando arquivo configuracoes.xlsx.
+03/02/2025 16:03:23 |  18132 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): admin109683.superlogica.net:443
+03/02/2025 16:03:32 |  18132 | DEBUG    | _make_request                  | https://admin109683.superlogica.net:443 "PUT /condor/atual/contabancos/put?ST_DESCRICAO_CB=Conta%20Principal%20-%20Itau&ST_NOME_BANC=Banco%20Itau%20S.A.&ST_NUMERO_AGB=0706&ST_CONTA_CB=99300-3&DT_DATAABERTURA_CB=07/31/2024&ID_TIPOCONTABANCO_TCB=1&ST_CNPJREMESSA_CB=42181669000177&NM_ORDEM_CB=1&FL_REMUNERARSOBRESALDO_CB=0&FL_COMGESTAOADM_CB=0&ST_NUMERO_BANC=341&ID_CONDOMINIO_COND=3&FL_PRINCIPAL_CB=0&ID_BANCO_BANC=10&ID_AGENCIABANCO_AGB=17&FL_HOMOLOGADO_CB=2 HTTP/11" 200 2483
+03/02/2025 16:03:37 |  18132 | INFO     | put_conta_bancaria             | Conta bancaria criada
+03/02/2025 16:03:44 |  18132 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): api.superlogica.net:443
+03/02/2025 16:03:45 |  18132 | DEBUG    | _make_request                  | https://api.superlogica.net:443 "GET /v2/condor/configuracoes?idCondominio=3 HTTP/11" 200 None
+03/02/2025 16:04:04 |  18132 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): api.superlogica.net:443
+03/02/2025 16:04:04 |  18132 | DEBUG    | _make_request                  | https://api.superlogica.net:443 "PUT /v2/condor/condominios?ID_CONDOMINIO_COND=3&ST_ENDERECO_COND=Largo%20do%20Machado,%2039&ST_COMPLEMENTO_COND= HTTP/11" 200 None
+03/02/2025 16:04:06 |  18132 | INFO     | atualizar_mascara_padrao       | Endereço atualizado com sucesso!
+03/02/2025 16:04:40 |  18132 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): api.superlogica.net:443
+03/02/2025 16:04:41 |  18132 | DEBUG    | _make_request                  | https://api.superlogica.net:443 "POST /v2/condor/configuracoes?idCondominio=3 HTTP/11" 206 None
+03/02/2025 16:04:41 |  18132 | ERROR    | post_atualizar_condominio      | Erro de requisição código 206.
+03/02/2025 16:05:04 |  18132 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): api.superlogica.net:443
+03/02/2025 16:05:04 |  18132 | DEBUG    | _make_request                  | https://api.superlogica.net:443 "GET /v2/condor/contabancos/index?exibirDadosAgencia=1&exibirContasFechadas=1&exibirDadosBanco=1&exibirContasAtivas=1&idCondominio=3 HTTP/11" 200 None
+03/02/2025 16:06:00 |  18132 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): api.superlogica.net:443
+03/02/2025 16:06:02 |  18132 | DEBUG    | _make_request                  | https://api.superlogica.net:443 "PUT /v2/condor/contabancos/index?idCondominio=3&ID_CONTABANCO_CB=8&ID_BANCO_BANC=10&ST_NUMERO_AGB=0706&ST_CONTA_CB=99300-3&NM_ORDEM_CB=2&FL_REMUNERARSOBRESALDO_CB=1&FL_COMGESTAOADM_CB=1&ST_CNPJREMESSA_CB=42181669000177&ST_LOCALPAGAMENTO_CAR=Pag%C3%A1vel%20em%20qualquer%20banco%20at%C3%A9%2059%20dias%20do%20vencimento.&ST_INFOCEDENTE_CB=ESTASA%20-%20Emp%20de%20Serv%20Tec%20e%20Adm%20Ltda%20%E2%80%93%20CNPJ%20:%2042.181.669/0001-77 HTTP/11" 200 None
+03/02/2025 16:06:08 |  18132 | DEBUG    | from_bytes                     | Encoding detection: ascii is most likely the one.
+03/02/2025 16:06:27 |  18132 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): api.superlogica.net:443
+03/02/2025 16:06:28 |  18132 | DEBUG    | _make_request                  | https://api.superlogica.net:443 "GET /v2/condor/configuracoes?idCondominio=3 HTTP/11" 200 None
+03/02/2025 16:09:06 |  18132 | WARNING  | atualizar_mascara_padrao       | Lista de parametros com erro na requisição do condomínio 738:
+03/02/2025 16:09:08 |  18132 | WARNING  | atualizar_mascara_padrao       | [['3', 'ST_INFOCEDENTE_CB=ESTASA - Emp de Serv Tec e Adm Ltda – CNPJ : 42.181.669/0001-77']]
+03/02/2025 16:09:09 |  18132 | WARNING  | atualizar_mascara_padrao       | Lista de parametros não encontrados do condomínio 738:
+03/02/2025 16:09:10 |  18132 | WARNING  | atualizar_mascara_padrao       | []
+03/02/2025 16:09:12 |  18132 | WARNING  | atualizar_mascara_padrao       | Lista de condominios que deram erro:
+03/02/2025 16:09:13 |  18132 | WARNING  | atualizar_mascara_padrao       | ['Condominio ID_SL 3 deu um erro na requisição.']
+03/02/2025 16:09:15 |  18132 | INFO     | atualizar_mascara_excecao      | Procurando arquivos .xlsx em .\docs\.
+03/02/2025 16:09:15 |  18132 | INFO     | atualizar_mascara_excecao      | Validando arquivo configuracoes.xlsx_COMPLETO.
+03/02/2025 16:09:15 |  18132 | WARNING  | atualizar_mascara_excecao      | configuracoes.xlsx_COMPLETO não corresponde as configurações esperadas.
+03/02/2025 16:09:15 |  18132 | INFO     | atualizar_mascara_excecao      | Validando arquivo enderecos.xlsx_DESATUALIZADO.
+03/02/2025 16:09:15 |  18132 | WARNING  | atualizar_mascara_excecao      | enderecos.xlsx_DESATUALIZADO não corresponde as configurações esperadas.

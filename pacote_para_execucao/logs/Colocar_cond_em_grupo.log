@@ -1,0 +1,17 @@
+31/03/2025 14:00:11 |  15152 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): admin109683.superlogica.net:443
+31/03/2025 14:00:12 |  15152 | DEBUG    | _make_request                  | https://admin109683.superlogica.net:443 "POST /condor/atual/condominios/adicionargrupo?grupos%5B0%5D%5BST_GRUPO_CG%5D=Condom%C3%ADnio%20em%20implanta%C3%A7%C3%A3o&grupos%5B0%5D%5BID_GRUPO_CG%5D=43&ID_CONDOMINIO_COND=9&ID_FORNECEDOR=&FL_TIPO_CG= HTTP/11" 200 371
+31/03/2025 14:00:12 |  15152 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): admin109683.superlogica.net:443
+31/03/2025 14:00:13 |  15152 | DEBUG    | _make_request                  | https://admin109683.superlogica.net:443 "POST /condor/atual/condominios/adicionargrupo?grupos%5B0%5D%5BST_GRUPO_CG%5D=Condom%C3%ADnio%20em%20implanta%C3%A7%C3%A3o&grupos%5B0%5D%5BID_GRUPO_CG%5D=43&ID_CONDOMINIO_COND=424&ID_FORNECEDOR=&FL_TIPO_CG= HTTP/11" 200 334
+31/03/2025 14:20:42 |  21708 | INFO     | main                           | Començando a remover os condominio ['9', '424'] do grupo de saldo de importação
+31/03/2025 14:20:42 |  21708 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): servidor-webapp.estasa.net:8085
+31/03/2025 14:21:29 |  24284 | INFO     | main                           | Començando a remover os condominio ['9999'] do grupo de saldo de importação
+31/03/2025 14:21:29 |  24284 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): servidor-webapp.estasa.net:8085
+31/03/2025 14:43:37 |  20040 | INFO     | main                           | Començando a remover os condominio ['9999'] do grupo de saldo de importação
+31/03/2025 14:43:37 |  20040 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): servidor-webapp.estasa.net:8085
+31/03/2025 14:43:38 |  20040 | DEBUG    | _make_request                  | https://servidor-webapp.estasa.net:8085 "GET /apisqlserver/get_id_sl/9999 HTTP/11" 200 4
+31/03/2025 14:43:38 |  20040 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): api.superlogica.net:443
+31/03/2025 14:43:39 |  20040 | DEBUG    | _make_request                  | https://api.superlogica.net:443 "GET /v2/condor/condominiogrupos/index?somenteGruposComCondominios=1 HTTP/11" 200 None
+31/03/2025 14:44:28 |  20040 | DEBUG    | _new_conn                      | Starting new HTTPS connection (1): admin109683.superlogica.net:443
+31/03/2025 14:44:28 |  20040 | DEBUG    | _make_request                  | https://admin109683.superlogica.net:443 "POST /condor/atual/condominios/adicionarcondominios?id=0 HTTP/11" 200 161
+31/03/2025 14:44:46 |  20040 | DEBUG    | from_bytes                     | Encoding detection: ascii is most likely the one.
+31/03/2025 14:44:58 |  20040 | INFO     | main                           | condominios removidos com sucesso

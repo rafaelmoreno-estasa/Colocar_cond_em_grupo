@@ -1,0 +1,17 @@
+{
+    "[GERAL]": {
+        "nivel_log": "info",
+        "caminho_log": ".\\logs\\",
+        "caminho_pasta": "C:\\docs\\",
+        "arquivo_padrao_mascara": "configuracoes.xlsx",
+        "arquivo_padrao_endereco": "enderecos.xlsx"
+        
+    },
+    "[DEV]": {
+        "nivel_log": "debug",
+        "caminho_pasta": ".\\docs\\"
+    },
+    "[PROD]": {
+        "nivel_log": "info"
+    }
+}
