@@ -137,6 +137,8 @@ def get_id_sl(codigo):
 def main():
 
     # Exemplo de uso
+    list_remove = []
+    list_no_remove = []
     codigos_remove = ler_codigo_csv("remover_do_grupo.csv", "codigo")
     if codigos_remove:
         logger.info(f"Començando a remover os condominio {codigos_remove} do grupo de saldo de importação")
@@ -147,8 +149,14 @@ def main():
     
     remove = remover_conds_no_grupo_implantacao(id_sl_remove)
     if remove:
+        list_remove.append(codigo)
         logger.info("condominios removidos com sucesso")
+    else:
+        list_no_remove.append(codigo)
 
+
+    list_add = []
+    list_no_add = []
     codigos_add = ler_codigo_csv("inserir_no_grupo.csv", "codigo")
     if codigos_add:
         logger.info(f"Començando a adicionar os condominio {codigos_add} ao grupo de saldo de importação")
@@ -158,6 +166,12 @@ def main():
             add = adicionar_cond_no_grupo_implantacao(id_sl)
             if add:
                 logger.info(f"{codigo} adicionado ao grupo de saldo de implantação")
+                list_add.append(codigo)
+            else:
+                list_no_add.append(codigo)
 
+
+
+    
 
 main()
